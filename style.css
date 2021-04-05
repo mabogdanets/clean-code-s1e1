@@ -1,5 +1,10 @@
 /* Basic Style */
+body{
+  margin: 0 auto;
+}
 .page-wrapper {
+  height: 100%;
+  min-height: 100vh;
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -133,13 +138,13 @@ label[for="task__input_new"] {
 }
 
 /* Completed */
-.task__input_completed {
+#section-complete .task__input {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul .input {
+ul li .input {
   display: none;
 }
 
